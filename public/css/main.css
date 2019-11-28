@@ -5,6 +5,45 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-#headshot {
-    width: 500px;
+#player {
+    margin-top: 100px;
 }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+
+.btn-default {
+  float: left;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+#progressBar{
+  width: 930px;
+  height: 35px;
+  margin-left: 10px;
+  float: left;
+}
+
+#line{
+  border-style: solid;
+  top: 15%;
+  position: relative;
+  border-width: 1px;
+  background-color: black;
+}
+
+
+
+#square{
+  height: 15px;
+  width: 15px;
+  position: relative;
+  border-width: 2px;
+  border-style: solid;
+  top: 12px;
+  left:0%;
+}
+
