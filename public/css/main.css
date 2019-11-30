@@ -20,30 +20,9 @@ body {
   background-color: #fff;
   border-color: #ccc;
 }
-#progressBar{
-  width: 930px;
-  height: 35px;
-  margin-left: 10px;
-  float: left;
-}
-
-#line{
-  border-style: solid;
-  top: 15%;
-  position: relative;
-  border-width: 1px;
-  background-color: black;
-}
 
 
 
-#square{
-  height: 15px;
-  width: 15px;
-  position: relative;
-  border-width: 2px;
-  border-style: solid;
-  top: 12px;
-  left:0%;
-}
+
+
 
