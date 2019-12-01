@@ -19,9 +19,8 @@ app.get('/',function(req,res){
 http.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 io.on('connection',function(socket){
-  socket.on('playEvent',function(msg){
-    console.log(msg);
-  });
+  socket.on('playerEvent',function(msg){
+  io.emit('playerEvent',msg);  });
   console.log('a user connected');
 });
 
