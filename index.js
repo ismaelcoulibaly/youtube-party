@@ -20,7 +20,8 @@ http.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 io.on('connection',function(socket){
   socket.on('playerEvent',function(msg){
-  io.emit('playerEvent',msg);  });
+  io.emit('playerEvent',msg); 
+ });
   console.log('a user connected');
 });
 
