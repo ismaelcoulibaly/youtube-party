@@ -1,4 +1,6 @@
-************LINK TO TEST THE APP :https://infinite-anchorage-96702.herokuapp.com/*********************
+***************************LINK TO TEST THE APP :https://infinite-anchorage-96702.herokuapp.com/*********************
+--> DEPLOYED VIA HEROKU
+--> JavaScript, Node.js, Jquery, Socket.Io, HTML, CSS
 
 # youtubeSync Web App
 A barebones Node.js app using [Express 4](http://expressjs.com/).
