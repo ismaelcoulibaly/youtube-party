@@ -1,4 +1,4 @@
-***************************LINK TO TEST THE APP :https://infinite-anchorage-96702.herokuapp.com/*********************
+***************************LINK TO TEST THE APP :https://youtube-party-project.herokuapp.com/*********************
 --> DEPLOYED VIA HEROKU
 --> JavaScript, Node.js, Jquery, Socket.Io, HTML, CSS
 --> this app allows to sync different viewers youtube video connected on the same link. 
